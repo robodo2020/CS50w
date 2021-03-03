@@ -6,21 +6,21 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <div class="center">
-            <div>
+            <nav class="navBar">
                 <a  href="/index.html">Back to google</a>
-
+                
+            </nav>
+            <img src="google_logo.png" class ="center" height="92" width="272"/>
+            <div class="content">
+                <form action="https://google.com/search">
+                    <div>
+                        <input class="searchBar form-control " type="text" name="q">
+                        <input name="tbm" value="isch" type="hidden">
+                    </div>
+                    <div class="searchButton" height="92" width="272">
+                        <div><button type="submit" class="gsearch" value="Google Search">Search</button></div>
+                    </div>
+                </form>
             </div>
-            <div><img src="google_logo.png" class="center" height="92" width="272"/>Image</div>
-            <form action="https://google.com/search">
-                <div class="search">
-                    <input class="rounded-pill form-control" type="text" name="q">
-                    <input name="tbm" value="isch" type="hidden">
-                </div>
-                <div class="center">
-                    <div><button type="submit" value="Google Search">Search</button></div>
-                </div>
-            </form>
-        </div>
     </body>
 </html>
