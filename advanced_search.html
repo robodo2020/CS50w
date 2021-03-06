@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <nav class="navBar">
+                <a href="/index.html" class="navItem">Back to google</a>
+            </nav>
+        </div>
+        
+            <div class="advanced-title">
+                <h4 style="color:#d93025; font-size:20px;" >Advanced Search</h4>
+                <hr style="color: rgb(235, 235, 225);"/>
+            </div>
+            
+        <div class="container">
+            <div class="form-group row">
+                <label class="col-sm-7 col-lg-7 header-dsc" >Find Pages with...</label>
+                <div class="col-lg-4 dsc-header"> 
+                    <label >To do this in the search box </label>
+                </div>
+            </div>
+            <form action="https://google.com/search">
+                    <div class="form-group row advanced-box" >
+                        <label class="col-lg-2 col-md-2 search-dsc">all these words:</label>
+                        <div class="col-lg-5 col-md-8">
+                          <input class="form-control" type="text" name="as_q">
+                        </div>
+                        <div class="col-lg-3 dsc-content"> 
+                            <label>Type the important words:
+                                <span class="eg-font">
+                                    tricolor rat terrier
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group row advanced-box">
+                        <label class="col-lg-2 col-md-2 search-dsc">the exact word or phrase:</label>
+                        <div class="col-lg-5 col-md-8">
+                          <input class="form-control" type="text" name="as_epq">
+                        </div>
+                        <div class="col-lg-3 dsc-content"> 
+                            <label>Put exact words in quotes: 
+                                <span class="eg-font">
+                                    "frost flower"
+                                </span>
+                                
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group row advanced-box">
+                        <label class="col-lg-2 col-md-2 search-dsc">any of these words:</label>
+                        <div class="col-lg-5 col-md-8">
+                          <input class="form-control" type="text" name="as_oq">
+                        </div>
+                        <div class="col-lg-3 dsc-content"> 
+                            <label>Type 
+                                <span class="eg-font">OR</span>
+                                between all the words you want: 
+                                <div>
+                                <span class="eg-font">
+                                    trees OR weeds OR grasses 
+                                </span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row advanced-box">
+                        <label class="col-lg-2 col-md-2 search-dsc">none of these words:</label>
+                        <div class="col-lg-5 col-md-8">
+                          <input class="form-control" type="text" name="as_eq">
+                        </div>
+                        <div class="col-lg-3 dsc-content"> 
+                            <label>Put a minus sign just before words you don't want:
+                                <div>
+                                <span class="eg-font">
+                                    -rodent, -"Jack Russell"
+                                </span>
+                            </div>
+                            </label>
+                        </div>
+                    </div>
+                <div style="display:none">
+                    <input type="submit" value="Google Search"> 
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
