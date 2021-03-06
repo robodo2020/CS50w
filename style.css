@@ -17,7 +17,7 @@
   font-family: arial, sans-serif;
   height: 50px;
 
-  background-image: url("search.svg");
+  background-image: url("/images/search.svg");
   background-position: 15px 15px;
   background-repeat: no-repeat;
 }
