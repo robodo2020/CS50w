@@ -82,6 +82,7 @@
 .search-dsc {
   padding-top: 10px;
   display: block;
+  weight: 500px;
   /* margin: auto; */
 }
 .dsc-content {
@@ -114,11 +115,31 @@
   height: 30px;
 }
 
+.ad-button {
+  margin: 10px 0px 10px 620px;
+  padding: 0px 12px 0px 12px;
+  border: 1px;
+  height: 28px;
+  weight: 100.719px;
+  background-color: rgb(77, 144, 254);
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ad-button:hover {
+  background-color: rgb(48, 121, 237);
+}
+
 @media (max-width: 1200px) {
   .dsc-header {
     display: none;
   }
   .dsc-content {
     display: none;
+  }
+  .ad-button {
+    margin: 10px 0px 10px 410px;
   }
 }
